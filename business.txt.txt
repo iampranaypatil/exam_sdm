@@ -1,0 +1,27 @@
+Business Entities:
+
+1. User: userid(pk),username(uk),password,role
+
+2. Project: projectid(pk),userid(fk),description,Project_status
+
+3. Task: taskid(pk),projectid(fk),description,Task_status
+
+
+
+Business Operations:
+
+Employee login 
+
+project task assign
+
+project task cancel
+
+online chat communication
+
+project meeting collaboration
+
+project analysis 
+
+project statics based on the departments
+
+ 

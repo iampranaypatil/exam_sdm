@@ -1,0 +1,16 @@
+Functional requirements:
+
+1. Employee login:
+here all the employee of the organization will first login based on their role in organization i.e employee, project managers, delivery managers and stackholders.
+
+here all the authentication will be cheked based on the role of the employee
+
+2. Task Assign:
+The project manager will be admin of the tool. He has the the access to assign the task to the employee he selected.
+
+3.Collaboration:
+All the project member should be communicate the project requirement and the task he or she may completed.
+
+4.Analysis:
+In this all the task which is ongoing or completed will be seen directly through the charts.
+

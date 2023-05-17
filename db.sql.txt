@@ -1,0 +1,36 @@
+Table commands for ER diagram
+
+1. Table User: 
+
+create table User(
+User_id int primary key,
+User_name varchar(20) unique key,
+Password varchar(20),
+Role varchar(20));
+
+2. Table Project:
+
+create table Project(
+Project_id int primary key,
+User_id int,
+Description varchar(50),
+Project_status varchar(50),
+constraint f11 foreign key(User_id) references User(User_id));
+
+
+3. Table Task:
+
+create table Task(
+Task_id int primary key,
+Project_id int,
+Description varchar(50),
+Task_status varchar(50),
+constraint f12 foreign key(Project_id) references Project(Project_id));
+
+
+
+
+
+
+
+
